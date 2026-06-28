@@ -9,13 +9,13 @@ Teensy 4.1 firmware that turns a Native Instruments Maschine MK1 into a USB-MIDI
 - 2.54 mm pitch pin header, 5 pins
 - Maschine MK1
 
-Use Arduino IDE with Teensyduino installed. Select **Teensy 4.1** and a USB type that includes MIDI, such as **MIDI** or **Serial + MIDI**.
+Use Arduino IDE with Teensyduino installed. Select **Teensy 4.1** and a USB type that includes MIDI, such as **Serial + MIDI**.
 
 ## Getting Started
 
 1. Obtain the Teensy 4.1, USB host cable, 2.54 mm pitch pin header, and Maschine MK1, then assemble them so the Maschine is connected to the Teensy USB host port.
-2. Follow the [Teensy download and install guide](https://www.pjrc.com/teensy/td_download.html) to make Arduino IDE able to compile and upload code for Teensy.
-3. Compile the  code and upload it to the Teensy 4.1.
+2. Follow the [Teensyduino download and install guide](https://www.pjrc.com/teensy/td_download.html) to make Arduino IDE able to compile and upload code for Teensy.
+3. Compile the code and upload it to the Teensy 4.1.
 4. You now have a USB-MIDI Maschine MK1!
 
 ## MIDI Mapping
@@ -35,4 +35,4 @@ The sketch also supports routing generated controller MIDI to the Maschine DIN M
 
 ## Notes
 
-This implementation used the Linux `snd-usb-caiaq` driver and CABL's Maschine MK1 implementation as protocol references.
+This implementation used the Linux [`snd-usb-caiaq`](https://github.com/torvalds/linux/tree/master/sound/usb/caiaq) driver and [CABL](https://github.com/shaduzlabs/cabl)'s Maschine MK1 implementation as protocol references.
