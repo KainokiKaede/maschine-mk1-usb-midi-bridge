@@ -2,6 +2,8 @@
 
 Teensy 4.1 firmware that turns a Native Instruments Maschine MK1 into a USB-MIDI controller.
 
+[Watch the demo on YouTube](https://www.youtube.com/shorts/jVa_y_xNMZY)
+
 ## Hardware
 
 - [Teensy 4.1](https://www.pjrc.com/store/teensy41.html)
